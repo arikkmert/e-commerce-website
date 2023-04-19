@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    background: url(IMG-20220120-WA0013.jpg);
+    
+    
+    
+    height: 100vh;
+    background-size: 100% 100%;
+}
+ .navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+
+}
+.navbar .MikaWorld{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar .MikaWorld a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 251, 251) ;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    background: purple;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar ul li a.hover{
+    color: aliceblue;
+    background: purple;
+    border-radius: 2px;
+}
+.container .center{
+    position:absolute;
+    top: 64%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    width: 700px;
+    margin-top: 10px;
+    
+
+    }
+
+#specialdivision {
+    width: 800px;
+    height: 300px;
+    font-size: 15px;
+    font-family: "Times New Roman, Times, serif";
+    background-color:azure;
+    text-align: left;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 10px;
+    margin-right: 125px;
+    color: darkcyan;
+}
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    width: 700px;
+    
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(244, 248, 233);
+    background: rgb(128, 32, 218);
+    border: solid 1px green;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition:.5s;
+}
+.buttons button.hover{
+    background: #fff;
+}
+h4{
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: red;
+}
+#aboutuss{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;    
+}
+
+    
+
+#mila{
+    width: 350px;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#aysha{
+    width: 350px;
+    height: 300px;
+    float:right;
+    border-radius: 10px;
+    margin: 10px;
+}
+.artdolls{
+    width: 32%;
+    height: 300px;
+    background: white;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: red;
+
+}
+.artimg{
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    
+    
+}
+.arttitle{
+font-size: 20px;
+display: inline-block;
+color: rebeccapurple;
+text-align: center;
+height: 45px;
+
+}
+.artdetail{
+    font-size: 25px;
+    display: inline-block;
+    color: rebeccapurple;
+    text-align: center;
+    height: 45px;
+}
+.form{
+    background-color: bisque;
+     background-size: 100% 100%;
+    height: 670px;
+}
+.form table{
+    width: 900px;
+    height: 500px;
+}
+.contact{
+    background-color: bisque;
+     background-size: 100% 100%;
+    height: 670px; 
+    font-family: fantasy;
+    font-size: 15px;
+}
